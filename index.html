@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encrypt & Decrypt</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <img id="icono" src="./img/Vector.png" alt="imagen icono vector alura">
+
+        <textarea id="textAreain" placeholder="Ingrese el texto aqui"></textarea>
+        
+        <div class="divInfo">
+            <img src="./img/Vector2.png" id="icono2">
+            <label class="labelInfo">Solo letras minúsculas y sin acentos</label>
+        </div>
+        
+        <div class="botonesDiv">
+            <button type="submit"  class="boton btn1">Encriptar</button>
+            <button class="boton btn2">Desencriptar</button>
+        </div>
+
+        <div class="divResultado">
+
+        
+            <img src="./img/Muñecoimg.png" class="muneco ocultar" id="ocultar" >
+            <label class="msg1 ocultar" id="ocultar">Ningún mensaje fue encontrado</label>
+            <label class="msg2 ocultar" id="ocultar">Ingresa el texto que desees encriptar o desencriptar.</label>
+
+
+
+            <textarea id="textAreaOut" disabled></textarea>
+            <!-- <button class="boton btn3">Copiar</button> -->
+            <button  class="boton btn3" >copiar</button>
+        </div>
+        <p class="mr">Desarrollado por &copy; Eduardo Serey</p>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
